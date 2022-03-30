@@ -39,7 +39,7 @@
             I'd like to make them more beautiful without additional classes, ids, etc. So I did it.
           </p>
           <p><input id="inputbtn" type="file"></p>
-          <p><button id="inputbtn">Upload Fotomu Disini</button></p>
+          <p><button id="inputbtn" type="file">Upload Fotomu Disini</button></p>
           <p id="canvas"></p>
           <button onclick="download()">Download</button>
           <button onclick="remake()">Reset</button>
@@ -112,7 +112,7 @@
 		function draw() {
 		  fill(0);
 		  noStroke();
-		  textSize(24);
+		  textSize(14);
 		  textAlign(CENTER);
 		  text('Fotomu akan Muncul disini', width/2, height/2);
 		  noLoop();
