@@ -24,45 +24,45 @@ quotes[9]='<p class="p-pull-quote__quote">As I grow older, I pay less attention 
 
 quotes[10]='<p class="p-pull-quote__quote">No steam or gas ever drives anything until it is confined. No Niagara is ever turned into light and power until it is tunneled. No life ever grows until it is focused, dedicated, disciplined.<p> <span class="p-pull-quote__citation">-Harry Emerson Fosdick</span>'
 
-quotes[11]='<p class="p-pull-quote__quote">The words printed here are concepts. You must go through the experiences.<p> <p><cite>-Carl Frederick</cite></p>'
+quotes[11]='<p class="p-pull-quote__quote">The words printed here are concepts. You must go through the experiences.<p> <span class="p-pull-quote__citation">-Carl Frederick</span>'
 
-quotes[12]='<p class="p-pull-quote__quote">Man cannot discover new oceans unless he has the courage to lose sight of the shore.<p> <p><cite>-Andre Gide</cite></p>'
+quotes[12]='<p class="p-pull-quote__quote">Man cannot discover new oceans unless he has the courage to lose sight of the shore.<p> <span class="p-pull-quote__citation">-Andre Gide</span>'
 
-quotes[13]='<p class="p-pull-quote__quote">The wise man does at once what the fool does finally.<p> <p><cite>-Baltasar Gracian</cite></p>'
+quotes[13]='<p class="p-pull-quote__quote">The wise man does at once what the fool does finally.<p> <span class="p-pull-quote__citation">-Baltasar Gracian</span>'
 
-quotes[14]='<p class="p-pull-quote__quote">The world has the habit of making room for the man whose actions show that he knows where he is going.<p> <p><cite>-Napoleon Hill</cite></p>'
+quotes[14]='<p class="p-pull-quote__quote">The world has the habit of making room for the man whose actions show that he knows where he is going.<p> <span class="p-pull-quote__citation">-Napoleon Hill</span>'
 
-quotes[15]='<p class="p-pull-quote__quote">Success seems to be connected with action. Successful men keep moving. They make mistakes, but they don\'t quit.<p> <p><cite>-Conrad Hilton</cite></p>'
+quotes[15]='<p class="p-pull-quote__quote">Success seems to be connected with action. Successful men keep moving. They make mistakes, but they don\'t quit.<p> <span class="p-pull-quote__citation">-Conrad Hilton</span>'
 
-quotes[16]='<p class="p-pull-quote__quote">Do the things you know, and you shall learn the truth you need to know.<p> <p><cite>-George Macdonald</cite></p>'
+quotes[16]='<p class="p-pull-quote__quote">Do the things you know, and you shall learn the truth you need to know.<p> <span class="p-pull-quote__citation">-George Macdonald</span>'
 
-quotes[17]='<p class="p-pull-quote__quote">I have never heard anything about the resolutions of the apostles, but a good deal about their acts.<p> <p><cite>-Horace Mann</cite></p>'
+quotes[17]='<p class="p-pull-quote__quote">I have never heard anything about the resolutions of the apostles, but a good deal about their acts.<p> <span class="p-pull-quote__citation">-Horace Mann</span>'
 
-quotes[18]='<p class="p-pull-quote__quote">Let us not be content to wait and see what will happen, but give us the determination to make the right things happen.<p> <p><cite>-Peter Marshall</cite></p>'
+quotes[18]='<p class="p-pull-quote__quote">Let us not be content to wait and see what will happen, but give us the determination to make the right things happen.<p> <span class="p-pull-quote__citation">-Peter Marshall</span>'
 
-quotes[19]='<p class="p-pull-quote__quote">I hear and I forget, I see and I remember. I do and I understand.<p> <p><cite>-Chinese Proverb</cite></p>'
+quotes[19]='<p class="p-pull-quote__quote">I hear and I forget, I see and I remember. I do and I understand.<p> <span class="p-pull-quote__citation">-Chinese Proverb</span>'
 
-quotes[20]='<p class="p-pull-quote__quote">One may walk over the highest mountain one step at a time.<p> <p><cite>-John Wanamaker</cite></p>'
+quotes[20]='<p class="p-pull-quote__quote">One may walk over the highest mountain one step at a time.<p> <span class="p-pull-quote__citation">-John Wanamaker</span>'
 
-quotes[21]='<p class="p-pull-quote__quote">Every action is either strong or weak, and when every action is strong we are successful.<p> <p><cite>-Wallace D. Wattles</cite></p>'
+quotes[21]='<p class="p-pull-quote__quote">Every action is either strong or weak, and when every action is strong we are successful.<p> <span class="p-pull-quote__citation">-Wallace D. Wattles</span>'
 
-quotes[22]='<p class="p-pull-quote__quote">If we do what is necessary, all the odds are in our favor.<p> <p><cite>-Henry Kissinger</cite></p>'
+quotes[22]='<p class="p-pull-quote__quote">If we do what is necessary, all the odds are in our favor.<p> <span class="p-pull-quote__citation">-Henry Kissinger</span>'
 
-quotes[23]='<p class="p-pull-quote__quote">Little minds are tamed and subdued by misfortune; but great minds rise above them.<p> <p><cite>-Washington Irving</cite></p>'
+quotes[23]='<p class="p-pull-quote__quote">Little minds are tamed and subdued by misfortune; but great minds rise above them.<p> <span class="p-pull-quote__citation">-Washington Irving</span>'
 
-quotes[24]='<p class="p-pull-quote__quote">When an affliction happens to you, you either let it defeat you, or you defeat it.<p> <p><cite>-Rosalind Russell</cite></p>'
+quotes[24]='<p class="p-pull-quote__quote">When an affliction happens to you, you either let it defeat you, or you defeat it.<p> <span class="p-pull-quote__citation">-Rosalind Russell</span>'
 
-quotes[25]='<p class="p-pull-quote__quote">There\'s a basic human weakness inherent in all people which tempts them to want what they can\'t have and not want what is readily available to them.<p> <p><cite>-Robert J. Ringer</cite></p>'
+quotes[25]='<p class="p-pull-quote__quote">There\'s a basic human weakness inherent in all people which tempts them to want what they can\'t have and not want what is readily available to them.<p> <span class="p-pull-quote__citation">-Robert J. Ringer</span>'
 
-quotes[26]='<p class="p-pull-quote__quote">If there is something to gain and nothing to lose by asking, by all means ask.<p> <p><cite>-W. Clement Stone</cite></p>'
+quotes[26]='<p class="p-pull-quote__quote">If there is something to gain and nothing to lose by asking, by all means ask.<p> <span class="p-pull-quote__citation">-W. Clement Stone</span>'
 
-quotes[27]='<p class="p-pull-quote__quote">It\'s not the situation ... It\'s your reaction to the situation.<p> <p><cite>-Robert Conklin</cite></p>'
+quotes[27]='<p class="p-pull-quote__quote">It\'s not the situation ... It\'s your reaction to the situation.<p> <span class="p-pull-quote__citation">-Robert Conklin</span>'
 
-quotes[28]='<p class="p-pull-quote__quote">Life at any time can become difficult: life at any time can become easy.  It all depends upon how one adjusts oneself to life.<p> <p><cite>-Morarji Desai</cite></p>'
+quotes[28]='<p class="p-pull-quote__quote">Life at any time can become difficult: life at any time can become easy.  It all depends upon how one adjusts oneself to life.<p> <span class="p-pull-quote__citation">-Morarji Desai</span>'
 
-quotes[29]='<p class="p-pull-quote__quote">What happens is not as important as how you react to what happens.<p> <p><cite>-Thaddeus Golas</cite></p>'
+quotes[29]='<p class="p-pull-quote__quote">What happens is not as important as how you react to what happens.<p> <span class="p-pull-quote__citation">-Thaddeus Golas</span>'
 
-quotes[30]='<p class="p-pull-quote__quote">To hell with circumstances; I create opportunities.<p> <p><cite>-Bruce Lee</cite></p>'
+quotes[30]='<p class="p-pull-quote__quote">To hell with circumstances; I create opportunities.<p> <span class="p-pull-quote__citation">-Bruce Lee</span>'
 
 var whichquote=Math.floor(Math.random()*(quotes.length))
 document.write(quotes[whichquote])
