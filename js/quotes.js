@@ -40,29 +40,29 @@ quotes[17]='<p class="p-pull-quote__quote">I have never heard anything about the
 
 quotes[18]='<p class="p-pull-quote__quote">Let us not be content to wait and see what will happen, but give us the determination to make the right things happen.<p> <p><cite>-Peter Marshall</cite></p>'
 
-quotes[19]='<p>I hear and I forget, I see and I remember. I do and I understand.<p> <p><cite>-Chinese Proverb</cite></p>'
+quotes[19]='<p class="p-pull-quote__quote">I hear and I forget, I see and I remember. I do and I understand.<p> <p><cite>-Chinese Proverb</cite></p>'
 
-quotes[20]='<p>One may walk over the highest mountain one step at a time.<p> <p><cite>-John Wanamaker</cite></p>'
+quotes[20]='<p class="p-pull-quote__quote">One may walk over the highest mountain one step at a time.<p> <p><cite>-John Wanamaker</cite></p>'
 
-quotes[21]='<p>Every action is either strong or weak, and when every action is strong we are successful.<p> <p><cite>-Wallace D. Wattles</cite></p>'
+quotes[21]='<p class="p-pull-quote__quote">Every action is either strong or weak, and when every action is strong we are successful.<p> <p><cite>-Wallace D. Wattles</cite></p>'
 
-quotes[22]='<p>If we do what is necessary, all the odds are in our favor.<p> <p><cite>-Henry Kissinger</cite></p>'
+quotes[22]='<p class="p-pull-quote__quote">If we do what is necessary, all the odds are in our favor.<p> <p><cite>-Henry Kissinger</cite></p>'
 
-quotes[23]='<p>Little minds are tamed and subdued by misfortune; but great minds rise above them.<p> <p><cite>-Washington Irving</cite></p>'
+quotes[23]='<p class="p-pull-quote__quote">Little minds are tamed and subdued by misfortune; but great minds rise above them.<p> <p><cite>-Washington Irving</cite></p>'
 
-quotes[24]='<p>When an affliction happens to you, you either let it defeat you, or you defeat it.<p> <p><cite>-Rosalind Russell</cite></p>'
+quotes[24]='<p class="p-pull-quote__quote">When an affliction happens to you, you either let it defeat you, or you defeat it.<p> <p><cite>-Rosalind Russell</cite></p>'
 
-quotes[25]='<p>There\'s a basic human weakness inherent in all people which tempts them to want what they can\'t have and not want what is readily available to them.<p> <p><cite>-Robert J. Ringer</cite></p>'
+quotes[25]='<p class="p-pull-quote__quote">There\'s a basic human weakness inherent in all people which tempts them to want what they can\'t have and not want what is readily available to them.<p> <p><cite>-Robert J. Ringer</cite></p>'
 
-quotes[26]='<p>If there is something to gain and nothing to lose by asking, by all means ask.<p> <p><cite>-W. Clement Stone</cite></p>'
+quotes[26]='<p class="p-pull-quote__quote">If there is something to gain and nothing to lose by asking, by all means ask.<p> <p><cite>-W. Clement Stone</cite></p>'
 
-quotes[27]='<p>It\'s not the situation ... It\'s your reaction to the situation.<p> <p><cite>-Robert Conklin</cite></p>'
+quotes[27]='<p class="p-pull-quote__quote">It\'s not the situation ... It\'s your reaction to the situation.<p> <p><cite>-Robert Conklin</cite></p>'
 
-quotes[28]='<p>Life at any time can become difficult: life at any time can become easy.  It all depends upon how one adjusts oneself to life.<p> <p><cite>-Morarji Desai</cite></p>'
+quotes[28]='<p class="p-pull-quote__quote">Life at any time can become difficult: life at any time can become easy.  It all depends upon how one adjusts oneself to life.<p> <p><cite>-Morarji Desai</cite></p>'
 
-quotes[29]='<p>What happens is not as important as how you react to what happens.<p> <p><cite>-Thaddeus Golas</cite></p>'
+quotes[29]='<p class="p-pull-quote__quote">What happens is not as important as how you react to what happens.<p> <p><cite>-Thaddeus Golas</cite></p>'
 
-quotes[30]='<p>To hell with circumstances; I create opportunities.<p> <p><cite>-Bruce Lee</cite></p>'
+quotes[30]='<p class="p-pull-quote__quote">To hell with circumstances; I create opportunities.<p> <p><cite>-Bruce Lee</cite></p>'
 
 var whichquote=Math.floor(Math.random()*(quotes.length))
 document.write(quotes[whichquote])
