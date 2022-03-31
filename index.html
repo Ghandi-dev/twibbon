@@ -1,161 +1,59 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>awsm.css</title>
-    <link rel="stylesheet" href="css/awsm.min.css" id="theme">
-    <link rel="stylesheet" id="preload-theme">
-    <link rel="stylesheet" id="prism-theme">
-    <meta property="og:title" content="awsm.css">
-    <meta property="og:description" content="Simple CSS library for semantic HTML markup">
-    <meta property="og:image" content="https://igoradamenko.github.io/awsm.css/images/cover.png">
-    <meta property="og:url" content="https://igoradamenko.github.io/awsm.css/">
-    <meta name="twitter:card" content="summary_large_image">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sticky footer | Examples | Vanilla framework documentation</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    
+    <link rel="stylesheet" type="text/css" href="./custom.css" />
+    <link rel="icon" href="https://assets.ubuntu.com/v1/ab36e6ed-vanilla_favicon_32px.png" type="image/x-icon" />
+    
+<style>
+  body { margin: 0; }
+</style>
+
   </head>
+
   <body>
-    <header>
-      <h1>awsm.css</h1>
-      <p>It makes your <abbr title="HyperText Markup Language is the standard markup language for creating web pages and web applications.">HTML</abbr> beautiful
-      </p>
-      <nav>
-        <ul>
-          <li>Overview</li>
-          <li><a href=".">Elements</a></li>
-          <li><a href=".">Download</a></li>
-          <li><a href=".">Plugins</a></li>
-          <li><a href="." target="_blank">GitHub</a></li>
+    
+<div class="l-site">
+  <header id="navigation" class="p-navigation is-dark">
+    <div class="p-navigation__row">
+      <div class="p-navigation__banner">
+        <div class="p-navigation__logo">
+          <a class="p-navigation__item" href="#">
+            <img class="p-navigation__image" src="https://assets.ubuntu.com/v1/3c7954dd-logo-canonical-white.svg" alt="Canonical" width="95" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="u-fixed-width">
+    <p>Some short page content.</p>
+  </div>
+
+  <footer class="l-footer--sticky p-strip--light">
+    <nav class="row" aria-label="Footer navigation">
+      <div class="has-cookie">
+        <p>© 2020 Canonical Ltd. <a href="#">Ubuntu</a> and <a href="#">Canonical</a> are registered trademarks of Canonical Ltd.</p>
+        <ul class="p-inline-list--middot">
+          <li class="p-inline-list__item">
+            <a href="#"><small>Legal information</small></a>
+          </li>
+          <li class="p-inline-list__item">
+            <a href="#"><small>Report a bug on this site</small></a>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <article>
-        <section>
-          <h2><a id="why" href="#why" aria-hidden="true"></a>Why?
-          </h2>
-          <p>I had to create simple pages in my daily work. Sometimes it was compiled Markdown, sometimes pure <abbr title="HyperText Markup Language is the standard markup language for creating web pages and web applications.">HTML</abbr>.
-            I'd like to make them more beautiful without additional classes, ids, etc. So I did it.
-          </p>
-          <p><input id="inputbtn" type="file" onchange="readURL(this);" accept="image/*" /></p>
-          <p><button id="inputbtn" onchange="readURL(this);" accept="image/*" />Upload Fotomu Disini</button></p>
-          <p id="canvas"></p>
-          <button onclick="download()">Download</button>
-          <button onclick="remake()">Reset</button>
-        </section>
-      </article>
-    </main>
-    <footer>
-      <p>Ferry Ayunda</p>
-    </footer>
-    <!--                                                                                 -->
-    <!--                      ."-,.__                                                    -->
-    <!--                      `.     `.  ,                                               -->
-    <!--                   .--'  .._,'"-' `.                                             -->
-    <!--                  .    .'         `'                                             -->
-    <!--                  `.   /          ,'                                             -->
-    <!--                    `  '--.   ,-"'                                               -->
-    <!--                     `"`   |  \                                                  -->
-    <!--                        -. \, |                                                  -->
-    <!--                         `--Y.'      ___.                                        -->
-    <!--                              \     L._, \                                       -->
-    <!--                    _.,        `.   <  <\                _                       -->
-    <!--                  ,' '           `, `.   | \            ( `                      -->
-    <!--               ../, `.            `  |    .\`.           \ \_                    -->
-    <!--              ,' ,..  .           _.,'    ||\l            )  '".                 -->
-    <!--             , ,'   \           ,'.-.`-._,'  |           .  _._`.                -->
-    <!--           ,' /      \ \        `' ' `--/   | \          / /   ..\               -->
-    <!--         .'  /        \ .         |\__ - _ ,'` `        / /     `.`.             -->
-    <!--         |  '          ..         `-...-"  |  `-'      / /        . `.           -->
-    <!--         | /           |L__           |    |          / /          `. `.         -->
-    <!--        , /            .   .          |    |         / /             ` `         -->
-    <!--       / /          ,. ,`._ `-_       |    |  _   ,-' /               ` \        -->
-    <!--      / .           \"`_/. `-_ \_,.  ,'    +-' `-'  _,        ..,-.    \`.       -->
-    <!--     .  '         .-f    ,'   `    '.       \__.---'     _   .'   '     \ \      -->
-    <!--     ' /          `.'    l     .' /          \..      ,_|/   `.  ,'`     L`      -->
-    <!--     |'      _.-""` `.    \ _,'  `            \ `.___`.'"`-.  , |   |    | \     -->
-    <!--     ||    ,'      `. `.   '       _,...._        `  |    `/ '  |   '     .|     -->
-    <!--     ||  ,'          `. ;.,.---' ,'       `.   `.. `-'  .-' /_ .'    ;_   ||     -->
-    <!--     || '              V      / /           `   | `   ,'   ,' '.    !  `. ||     -->
-    <!--     ||/            _,-------7 '              . |  `-'    l         /    `||     -->
-    <!--     . |          ,' .-   ,' ||               | .-.        `.      .'     ||     -->
-    <!--      `'        ,'    `".'    |               |    `.        '. -.'       `'     -->
-    <!--               /      ,'      |               |,'    \-.._,.'/'                  -->
-    <!--               .     /        .               .       \    .''                   -->
-    <!--             .`.    |         `.             /         :_,'.'                    -->
-    <!--               \ `...\   _     ,'-.        .'         /_.-'                      -->
-    <!--                `-.__ `,  `'   .  _.>----''.  _  __  /                           -->
-    <!--                     .'        /"'          |  "'   '_                           -->
-    <!--                    /_|.-'\ ,".             '.'`__'-( \                          -->
-    <!--                      / ,"'"\,'               `/  `-.|" mh                       -->
-    <!--                                                                                 -->
-    <!--                          awsm.css v3.0.0 “Charizard”                            -->
-    <!--                                                                                 -->
-    <script>
+        <span class="u-off-screen"><a href="#">Go to the top of the page</a></span>
+      </div>
+    </nav>
+  </footer>
+</div>
 
-		function preload() {
-		   mask = loadImage('twibbon.png');
-		}
-
-		function setup() {
-			var uploadBtn = createFileInput(imageUpload);
-			uploadBtn.parent('inputbtn');
-			  // create canvas
-			  var c = createCanvas(500, 500);
-			  background('#fff');
-			  c.parent('canvas');
-			  // Add an event for when a file is dropped onto the canvas
-			  c.drop(gotFile);
-		}
-
-		function draw() {
-		  fill(0);
-		  noStroke();
-		  textSize(14);
-		  textAlign(CENTER);
-		  text('Fotomu akan Muncul disini', width/2, height/2);
-		  noLoop();
-		}
-
-		function remake() {
-			background('#fff');
-			redraw();
-		}
-
-		// function changeColor() {
-		// 	image(img, mouseX, mouseY, img.width, img.height);
-		// }
-
-		function download() {
-			saveCanvas("twibbon", 'jpg');
-		}
-
-		function gotFile(file) {
-		  // If it's an image file
-		  if (file.type === 'image') {
-		    // Create an image DOM element but don't show it
-		    background('#fff');
-		    redraw();
-		    var img = createImg(file.data).hide();
-		    // Draw the image onto the canvas
-		   image(img, 0, 0, width , height);
-
-		   
-		   image(mask, 0, 0, width, height);
-		  } else {
-		    println('Not an Photos file!');
-		  }
-		}
-
-		function imageUpload(file){
-		    img = loadImage(file.data,function(){
-		    	background('#fff');
-		    	redraw();
-		    	image(img, 0, 0, width , height);
-		        image(mask,0,0,width,height);
-		    })        
-		}
-	</script>
   </body>
 </html>
