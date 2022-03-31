@@ -10,25 +10,25 @@ quotes[2]='<p>I know of no more encouraging fact than the unquestionable ability
 
 quotes[3]='<p>Do not let what you cannot do interfere with what you can do.</p> <p><cite>-John Wooden</cite></p>'
 
-quotes[4]='<p>Accept everything about yourself - I mean everything, You are you and that is the beginning and the end - no apologies, no regrets. <i>-Clark Moustakas</i>'
+quotes[4]='<p>Accept everything about yourself - I mean everything, You are you and that is the beginning and the end - no apologies, no regrets.<p> <p><cite>-Clark Moustakas</cite></p>'
 
-quotes[5]='<p>We must accept life for what it actually is - a challenge to our quality without which we should never know of what stuff we are made, or grow to our full stature. <i>-Ida R. Wylie</i>'
+quotes[5]='<p>We must accept life for what it actually is - a challenge to our quality without which we should never know of what stuff we are made, or grow to our full stature.<p> <p><cite>-Ida R. Wylie</cite></p>'
 
-quotes[6]='<p>High achievement always takes place in the framework of high expectation. <i>-Jack Kinder</i>'
+quotes[6]='<p>High achievement always takes place in the framework of high expectation.<p> <p><cite>-Jack Kinder</cite></p>'
 
-quotes[7]='<p>The measure of a man is the way he bears up under misfortune. <i>-Plutarch</i>'
+quotes[7]='<p>The measure of a man is the way he bears up under misfortune.<p> <p><cite>-Plutarch</cite></p>'
 
-quotes[8]='<p>Don\'t wait for your ship to come in, swim out to it. <i>-Anon</i>'
+quotes[8]='<p>Don\'t wait for your ship to come in, swim out to it.<p> <p><cite>-Anon</cite></p>'
 
-quotes[9]='<p>As I grow older, I pay less attention to what men say. I just watch what they do. <i>-Andrew Carnegie</i>'
+quotes[9]='<p>As I grow older, I pay less attention to what men say. I just watch what they do.<p> <p><cite>-Andrew Carnegie</cite></p>'
 
-quotes[10]='<p>No steam or gas ever drives anything until it is confined. No Niagara is ever turned into light and power until it is tunneled. No life ever grows until it is focused, dedicated, disciplined. <i>-Harry Emerson Fosdick</i>'
+quotes[10]='<p>No steam or gas ever drives anything until it is confined. No Niagara is ever turned into light and power until it is tunneled. No life ever grows until it is focused, dedicated, disciplined.<p> <p><cite>-Harry Emerson Fosdick</cite></p>'
 
-quotes[11]='<p>The words printed here are concepts. You must go through the experiences. <i>-Carl Frederick</i>'
+quotes[11]='<p>The words printed here are concepts. You must go through the experiences.<p> <p><cite>-Carl Frederick</cite></p>'
 
-quotes[12]='<p>Man cannot discover new oceans unless he has the courage to lose sight of the shore. <i>-Andre Gide</i>'
+quotes[12]='<p>Man cannot discover new oceans unless he has the courage to lose sight of the shore.<p> <p><cite>-Andre Gide</cite></p>'
 
-quotes[13]='<p>The wise man does at once what the fool does finally. <i>-Baltasar Gracian</i>'
+quotes[13]='<p>The wise man does at once what the fool does finally.<p> <p><cite>-Baltasar Gracian</cite></p>'
 
 quotes[14]='<p>The world has the habit of making room for the man whose actions show that he knows where he is going. <i>-Napoleon Hill</i>'
 
