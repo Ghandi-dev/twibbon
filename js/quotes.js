@@ -2,27 +2,27 @@ var quotes=new Array()
 
 //change the quotes if desired. Add/ delete additional quotes as desired.
 
-quotes[0]='<p class="p-pull-quote__quote">There are some people who live in a dream world, and there are some who face reality; and then there are those who turn one into the other.</p> <p><cite>-By Douglas Everett</cite></p>'
+quotes[0]='<p class="p-pull-quote__quote">There are some people who live in a dream world, and there are some who face reality; and then there are those who turn one into the other.</p> <span class="p-pull-quote__citation">-By Douglas Everett</span>'
 
 quotes[1]='<p class="p-pull-quote__quote">Whether you think you can or whether you think you can\'t, you\'re right!.</p> <p><cite>-Henry Ford</cite></p>'
 
-quotes[2]='<p class="p-pull-quote__quote">I know of no more encouraging fact than the unquestionable ability of man to elevate his life by conscious endeavor.</p> <p><cite>-Henry David Thoreau</cite></p>'
+quotes[2]='<p class="p-pull-quote__quote">I know of no more encouraging fact than the unquestionable ability of man to elevate his life by conscious endeavor.</p> <span class="p-pull-quote__citation">-Henry David Thoreau</span>'
 
 quotes[3]='<p class="p-pull-quote__quote">Do not let what you cannot do interfere with what you can do.</p> <p><cite>-John Wooden</cite></p>'
 
-quotes[4]='<p class="p-pull-quote__quote">Accept everything about yourself - I mean everything, You are you and that is the beginning and the end - no apologies, no regrets.<p> <p><cite>-Clark Moustakas</cite></p>'
+quotes[4]='<p class="p-pull-quote__quote">Accept everything about yourself - I mean everything, You are you and that is the beginning and the end - no apologies, no regrets.<p> <span class="p-pull-quote__citation">-Clark Moustakas</span>'
 
-quotes[5]='<p class="p-pull-quote__quote">We must accept life for what it actually is - a challenge to our quality without which we should never know of what stuff we are made, or grow to our full stature.<p> <p><cite>-Ida R. Wylie</cite></p>'
+quotes[5]='<p class="p-pull-quote__quote">We must accept life for what it actually is - a challenge to our quality without which we should never know of what stuff we are made, or grow to our full stature.<p> <span class="p-pull-quote__citation">-Ida R. Wylie</span>'
 
-quotes[6]='<p class="p-pull-quote__quote">High achievement always takes place in the framework of high expectation.<p> <p><cite>-Jack Kinder</cite></p>'
+quotes[6]='<p class="p-pull-quote__quote">High achievement always takes place in the framework of high expectation.<p> <span class="p-pull-quote__citation">-Jack Kinder</span>'
 
-quotes[7]='<p class="p-pull-quote__quote">The measure of a man is the way he bears up under misfortune.<p> <p><cite>-Plutarch</cite></p>'
+quotes[7]='<p class="p-pull-quote__quote">The measure of a man is the way he bears up under misfortune.<p> <span class="p-pull-quote__citation">-Plutarch</span>'
 
-quotes[8]='<p class="p-pull-quote__quote">Don\'t wait for your ship to come in, swim out to it.<p> <p><cite>-Anon</cite></p>'
+quotes[8]='<p class="p-pull-quote__quote">Don\'t wait for your ship to come in, swim out to it.<p> <span class="p-pull-quote__citation">-Anon</span>'
 
-quotes[9]='<p class="p-pull-quote__quote">As I grow older, I pay less attention to what men say. I just watch what they do.<p> <p><cite>-Andrew Carnegie</cite></p>'
+quotes[9]='<p class="p-pull-quote__quote">As I grow older, I pay less attention to what men say. I just watch what they do.<p> <span class="p-pull-quote__citation">-Andrew Carnegie</span>'
 
-quotes[10]='<p class="p-pull-quote__quote">No steam or gas ever drives anything until it is confined. No Niagara is ever turned into light and power until it is tunneled. No life ever grows until it is focused, dedicated, disciplined.<p> <p><cite>-Harry Emerson Fosdick</cite></p>'
+quotes[10]='<p class="p-pull-quote__quote">No steam or gas ever drives anything until it is confined. No Niagara is ever turned into light and power until it is tunneled. No life ever grows until it is focused, dedicated, disciplined.<p> <span class="p-pull-quote__citation">-Harry Emerson Fosdick</span>'
 
 quotes[11]='<p class="p-pull-quote__quote">The words printed here are concepts. You must go through the experiences.<p> <p><cite>-Carl Frederick</cite></p>'
 
