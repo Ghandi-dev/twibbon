@@ -1,7 +1,7 @@
 var days = 730; // days until cookie expires = 2 years.
 var lastvisit=new Object();
-var firstvisitmsg="This is your first visit to this page. Welcome!"; 
-lastvisit.subsequentvisitmsg="Welcome back visitor! Your last visit was on <b>[displaydate]</b>";
+var firstvisitmsg="Ini adalah kunjungan pertama Anda ke halaman ini. Selamat datang!"; 
+lastvisit.subsequentvisitmsg="Welcome back visitor! Your last visit was on <strong>[displaydate]</strong>";
 
 lastvisit.getCookie=function(Name){ 
 var re=new RegExp(Name+"=[^;]+", "i"); 
