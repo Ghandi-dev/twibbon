@@ -16,7 +16,7 @@ function preload() {
 		function draw() {
 		  fill(0);
 		  noStroke();
-		  textSize(24);
+		  textSize(21);
 		  textAlign(CENTER);
 		  text('Fotomu akan Muncul disini', width/2, height/2);
 		  noLoop();
@@ -32,7 +32,7 @@ function preload() {
 		// }
 
 		function download() {
-			saveCanvas("twibbon", 'jpg');
+			saveCanvas("twibbon-by-ferry-ayunda", 'jpg');
 		}
 
 		function gotFile(file) {
