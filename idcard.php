@@ -58,7 +58,7 @@
   <div class="u-fixed-width">
   <h1 id="Idcard">Idcard Generator</h1><hr>
 
-  <form action="view.php" method="POST" enctype="multipart/form-data">
+  <form action="./view.php" method="POST" enctype="multipart/form-data">
   <label for="Nama Bangla Anda">Nama Bangla Anda</label>
   <input type="text" id="fname" name="fname" placeholder="Nama Bangla Anda" required>
   <label for="Nama Bahasa Inggris Anda">Nama Bahasa Inggris Anda</label>
