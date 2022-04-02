@@ -18,9 +18,8 @@
 <style>
   body { margin: 0; }
 </style>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
-  </head>
+    <script src="js/idcard.js"></script>
+ </head>
 
   <body>
   
