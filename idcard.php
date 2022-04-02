@@ -14,7 +14,7 @@
     
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    
+    <script src="js/idcard.js"></script>
 <style>
   body { margin: 0; }
 </style>
