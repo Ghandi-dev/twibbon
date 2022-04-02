@@ -55,8 +55,8 @@
     </nav>
   </div>
 </header>
-<?php
 
+<?php
 
 session_name("jwmf"); 
 session_start(); 
@@ -123,7 +123,7 @@ imagedestroy($bgpic);
   <div class="u-fixed-width">
   <h1 id="Result">Success...</h1><hr>
   
-  </figure>
+  <figure>
   <figcaption>Hasilnya...</figcaption>
   <img class="p-image--bordered" src="<?php  echo($save);  ?>"/>" alt="idcard">
   </figure>
