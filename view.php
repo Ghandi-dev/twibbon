@@ -77,10 +77,10 @@ $textcolor = imagecolorallocate($bgpic,255,255,255);
 $infcolor = imagecolorallocate($bgpic,0,0,0);
 $stscolor = imagecolorallocate($bgpic,0x00,0x55,0x00);
 $ttscolor = imagecolorallocate($bgpic,255,0,0);
-$font=__DIR__ ."/fonts/verdana.ttf";
-$f2=__DIR__ ."/fonts/sm.ttf";
-$f3=__DIR__ ."/fonts/sign.ttf";
-$f4=__DIR__ ."/fonts/avro.ttf";
+$font=__DIR__ ."fonts/verdana.ttf";
+$f2=__DIR__ ."fonts/sm.ttf";
+$f3=__DIR__ ."fonts/sign.ttf";
+$f4=__DIR__ ."fonts/avro.ttf";
 //imagestring($bgpic,7,30,5,$title,$textcolor);
 //echo($f4);
 
@@ -121,9 +121,13 @@ imagedestroy($bgpic);
 ?>
   
   <div class="u-fixed-width">
-  <h1 id="Twibbon">Success...</h1><hr>
-
+  <h1 id="Result">Success...</h1><hr>
   
+  </figure>
+  <figcaption>Hasilnya...</figcaption>
+  <img class="p-image--bordered" src="<?php  echo($save);  ?>"/>" alt="idcard">
+  </figure>
+
   <h2>Quotes Of The Day</h2><hr>
   <blockquote class="p-pull-quote--small">
   <script language="JavaScript1.1" src="js/quotes.js">
