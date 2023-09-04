@@ -1,161 +1,159 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="twibbon, tools, css, html5, css framework"/>
-    <meta name="description" content="Kampanye Twibbon adalah situs mikro Anda sendiri di mana pengguna dapat mendukung tujuan, merek, atau organisasi Anda dengan berbagai cara."/>
-    <meta property="og:image" content="./og.png">
-    <meta name="google-site-verification" content="6rTJ1beqFVOasRbqOUSOwAr-QvsckFFskGOiV9_GxQk" />
-    <title>Twibbon Maker</title>
 
-    
-    <link rel="stylesheet" type="text/css" href="css/build.css" />
-    
-    <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    
-<style>
-  body { margin: 0; }
-</style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-224763166-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="twibbon, tools, css, html5, css framework" />
+  <meta name="description"
+    content="Kampanye Twibbon adalah situs mikro Anda sendiri di mana pengguna dapat mendukung tujuan, merek, atau organisasi Anda dengan berbagai cara." />
+  <meta property="og:image" content="./og.png">
+  <meta name="google-site-verification" content="6rTJ1beqFVOasRbqOUSOwAr-QvsckFFskGOiV9_GxQk" />
+  <title>Twibbon Maker</title>
 
-  gtag('config', 'UA-224763166-1');
-</script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
 
-     </head>
+  <link rel="stylesheet" type="text/css" href="css/build.css" />
 
-  <body>
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224763166-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-224763166-1');
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+
+</head>
+
+<body>
   <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v13.0" nonce="bOhQkzqA"></script>
-    
-<div class="l-site">
-  <header id="navigation" class="p-navigation">
-  <div class="p-navigation__row">
-    <div class="p-navigation__banner">
-      <div class="p-navigation__logo">
-        <a class="p-navigation__item" href="#">
-          <img class="p-navigation__image" src="banner.svg" alt="Logo" width="95">
-        </a>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v13.0"
+    nonce="bOhQkzqA"></script>
+
+  <div class="l-site">
+    <header id="navigation" class="p-navigation">
+      <div class="p-navigation__row">
+        <div class="p-navigation__banner">
+          <div class="p-navigation__logo">
+            <a class="p-navigation__item" href="#">
+              <img class="p-navigation__image" src="logo-humanika.png" alt="Logo" width="95">
+            </a>
+          </div>
+          <a href="#navigation" class="p-navigation__toggle--open" title="menu"><i class="p-icon--menu"></i></a>
+          <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu"><i
+              class="p-icon--close"></i></a>
+        </div>
+
+        <nav class="p-navigation__nav" aria-label="Example main navigation">
+          <ul class="p-navigation__items">
+            <li class="p-navigation__item is-selected">
+              <a class="p-navigation__link" href=".">Home</a>
+            </li>
+            <!-- <li class="p-navigation__item">
+              <a class="p-navigation__link" href="about.html">About</a>
+            </li>
+            <li class="p-navigation__item">
+              <a class="p-navigation__link" href="https://vr46.pages.dev/">Blog</a>
+            </li>
+            <li class="p-navigation__item">
+              <a class="p-navigation__link" href="#">Contact</a>
+            </li> -->
+          </ul>
+        </nav>
       </div>
-      <a href="#navigation" class="p-navigation__toggle--open" title="menu"><i class="p-icon--menu"></i></a>
-      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu"><i class="p-icon--close"></i></a>
-    </div>
+    </header>
 
-    <nav class="p-navigation__nav" aria-label="Example main navigation">
-      <ul class="p-navigation__items">
-        <li class="p-navigation__item is-selected">
-          <a class="p-navigation__link" href=".">Home</a>
-        </li>
-        <li class="p-navigation__item">
-          <a class="p-navigation__link" href="about.html">About</a>
-        </li>
-        <li class="p-navigation__item">
-          <a class="p-navigation__link" href="https://vr46.pages.dev/">Blog</a>
-        </li>
-        <li class="p-navigation__item">
-          <a class="p-navigation__link" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
 
-  
-  <div class="u-fixed-width">
-  <h1 id="Twibbon">Twibbon</h1><hr>
+    <div class="u-fixed-width">
+      <h1 id="Twibbon">Twibbon</h1>
+      <hr>
 
-  <nav class="p-tabs" aria-label="Tabs example">
-  <ul class="p-tabs__list">
-    <li class="p-tabs__item">
-      <a href="https://bungferry.github.io/html-encoder/" class="p-tabs__link" aria-selected="true">HTML Encoder</a>
-    </li>
-    <li class="p-tabs__item">
-      <a href="https://textgenerator.vercel.app/" class="p-tabs__link">Unique Code</a>
-    </li>
-    <li class="p-tabs__item">
-      <a href="https://bungferry.github.io/shorturl/" class="p-tabs__link">Shorten URL</a>
-    </li>
-    <li class="p-tabs__item">
-      <a href="https://bungferry.github.io/fancy-font-generator/" class="p-tabs__link">Fancy Fonts Generator</a>
-    </li>
-    <li class="p-tabs__item">
-      <a href="https://avastar.vercel.app/" class="p-tabs__link">Avatar Maker</a>
-    </li>
-  </ul>
-</nav>   
-
-     <div class="p-notification--information">
-     <div class="p-notification__content">
-     <h5 class="p-notification__title">Butuh Twibbon?</h5>
-     <p class="p-notification__message">Kunjungi laman About kami untuk belajar tentang bagaimana memanfaatkan Twibbon untuk berbagai macam kebutuhan Anda.</p>
-     </div>
-     </div>
-
-    <p><button class="p-button has-icon" id="inputbtn"><i class="p-icon--plus"></i><span>Upload fotomu disini</span></button></p>
-    <div class="u-equal-height">
-    <div class="p-card u-float-left">
-    <p id="canvas"></p>
-    </div>
-    </div>
-
-    <p><button class="p-button--positive js-processing-button" onclick="download()">
-    <i class="p-icon--spinner u-animation--spin is-light u-hide"></i>
-    <span id="button-label">Download</span>
-    </button>
-    <button class="p-button--negative is-dark" onclick="remake()">
-    <i class="p-icon--spinner u-animation--spin is-light u-hide"></i>
-    <span id="button-label">Reset</span>
-    </button></p>
-
-   <h2>Quotes Of The Day:</h2><hr>
-   <blockquote class="p-pull-quote--small">
-   <script language="JavaScript1.1" src="js/quotes.js">
-   </script>
-   </blockquote>
-
-   <h2>Support:</h2><hr>
-   <ul class="p-inline-list">
-  <li class="p-inline-list__item"><a href="https://www.buymeacoffee.com/bungferry"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="23" width="100" style="border-radius:2px" alt="bungferry" /></a></li>
-  <li class="p-inline-list__item"><div class="fb-like" data-href="https://www.facebook.com/bungferry.wa" data-width="100" data-height="23" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
-</li>
-  <li class="p-inline-list__item"></li>
-   </ul>
-   
-  </div>
-  <footer class="l-footer--sticky p-strip--light">
-    <nav class="row" aria-label="Footer navigation">
-      <div class="has-cookie">
-        <p>© 2020 <a href="https://www.facebook.com/bungferry.wa" class="p-link--soft">Ferry Ayunda</a>.</p>
-        <ul class="p-inline-list--middot">
-          <li class="p-inline-list__item">
-            <a href="#"><small>Legal information</small></a>
+      <nav class="p-tabs" aria-label="Tabs example">
+        <ul class="p-tabs__list">
+          <li class="p-tabs__item">
+            <a href="https://bungferry.github.io/html-encoder/" class="p-tabs__link" aria-selected="true">Humanika
+              Twibbon</a>
           </li>
-          <li class="p-inline-list__item">
-            <a href="#"><small>Report a bug on this site</small></a>
+          <!-- <li class="p-tabs__item">
+            <a href="https://textgenerator.vercel.app/" class="p-tabs__link">Unique Code</a>
           </li>
+          <li class="p-tabs__item">
+            <a href="https://bungferry.github.io/shorturl/" class="p-tabs__link">Shorten URL</a>
+          </li>
+          <li class="p-tabs__item">
+            <a href="https://bungferry.github.io/fancy-font-generator/" class="p-tabs__link">Fancy Fonts Generator</a>
+          </li>
+          <li class="p-tabs__item">
+            <a href="https://avastar.vercel.app/" class="p-tabs__link">Avatar Maker</a>
+          </li> -->
         </ul>
-        <span class="u-off-screen"><a href="#">Go to the top of the page</a></span>
+      </nav>
+
+      <div class="p-notification--information">
+        <div class="p-notification__content">
+          <h5 class="p-notification__title">Tips</h5>
+          <p class="p-notification__message">Crop terlebih dahulu foto kamu dengan rasio 1:1 untuk memaksimalkan
+            hasilnya </p>
+        </div>
       </div>
-    </nav>
-  </footer>
-</div>
+
+      <p><button class="p-button has-icon" id="inputbtn"><i class="p-icon--plus"></i><span>Upload fotomu
+            disini</span></button></p>
+      <div class="u-equal-height">
+        <div class="p-card u-float-left">
+          <p id="canvas"></p>
+        </div>
+      </div>
+
+      <p><button class="p-button--positive js-processing-button" onclick="download()">
+          <i class="p-icon--spinner u-animation--spin is-light u-hide"></i>
+          <span id="button-label">Download</span>
+        </button>
+        <button class="p-button--negative is-dark" onclick="remake()">
+          <i class="p-icon--spinner u-animation--spin is-light u-hide"></i>
+          <span id="button-label">Reset</span>
+        </button>
+      </p>
+
+      <h2>Quotes Of The Day:</h2>
+      <hr>
+      <blockquote class="p-pull-quote--small">
+        <script language="JavaScript1.1" src="js/quotes.js">
+        </script>
+      </blockquote>
+
+    </div>
+    <footer class="l-footer--sticky p-strip--light">
+      <nav class="row" aria-label="Footer navigation">
+        <div class="has-cookie">
+          <p>© 2023 <a href="https://www.facebook.com/bungferry.wa" class="p-link--soft">Tekinkom Humanika</a>.</p>
+        </div>
+      </nav>
+    </footer>
+  </div>
   <script src="js/spin.js"></script>
   <script type="text/javascript">
-        let scriptElement = document.createElement("script");
-        scriptElement.type = "text/javascript";
-        scriptElement.src = "js/adsense.js";
+    let scriptElement = document.createElement("script");
+    scriptElement.type = "text/javascript";
+    scriptElement.src = "js/adsense.js";
 
-        document.body.appendChild(scriptElement);
-</script>
-  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="b3865219-bdb1-4559-83f2-73ba7ef5a417";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-  </body>
+    document.body.appendChild(scriptElement);
+  </script>
+  <script src="twibbon.js"></script>
+  <!-- <script
+    type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "b3865219-bdb1-4559-83f2-73ba7ef5a417"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script> -->
+</body>
+
 </html>
