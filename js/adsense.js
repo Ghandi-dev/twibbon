@@ -28,7 +28,7 @@ function setup() {
   var _0x7ebb8c = _0x2974,
     _0x250f5e = createFileInput(imageUpload);
   _0x250f5e[_0x7ebb8c(0x1d0)](_0x7ebb8c(0x1de));
-  var _0x2633c1 = createCanvas(1000, 1000);
+  var _0x2633c1 = createCanvas(1000, 720);
   background("#fff"),
     _0x2633c1["parent"]("canvas"),
     _0x2633c1[_0x7ebb8c(0x1df)](gotFile);
@@ -94,8 +94,7 @@ function gotFile(_0x416618) {
   if (_0x416618[_0x3ac844(0x1d7)] === "image") {
     background(_0x3ac844(0x1e0)), redraw();
     var _0x10f2c2 = createImg(_0x416618[_0x3ac844(0x1dc)])[_0x3ac844(0x1d1)]();
-    image(_0x10f2c2, 0x0, 0x0, width, height),
-      image(mask, 0x0, 0x0, width, height);
+    image(_0x10f2c2, 0x0, 0x0), image(mask, 0x0, 0x0);
   } else println(_0x3ac844(0x1d5));
 }
 function imageUpload(_0x17e526) {
@@ -104,7 +103,7 @@ function imageUpload(_0x17e526) {
     var _0x44df5c = _0x14e228;
     background(_0x44df5c(0x1e0)),
       redraw(),
-      image(img, 0x0, 0x0, width, height),
-      image(mask, 0x0, 0x0, width, height);
+      image(img, 0x0, 0x0),
+      image(mask, 0x0, 0x0);
   });
 }
