@@ -103,7 +103,7 @@ function imageUpload(_0x17e526) {
     var _0x44df5c = _0x14e228;
     background(_0x44df5c(0x1e0)),
       redraw(),
-      image(img, 0x0, 0x0),
-      image(mask, 0x0, 0x0);
+      image(img, 0x0, 0x0, width, height),
+      image(mask, 0x0, 0x0, width, height);
   });
 }
